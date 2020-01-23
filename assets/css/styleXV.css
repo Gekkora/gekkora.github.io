@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-color: #dfe5ee;
+}
+nav >p ,a{ 
+    font-family: 'Cabin Sketch', cursive;
+}
+.ghost {
+    width: 100%;
+    height: 450px;
+}
+.hero {
+    text-align: center;
+    background-image: url(../img/mientras.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #dfe5ee;
+    text-shadow: 2px 3px 2px #dfe5ee;
+    padding: 100px 50px 250px 50px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+
+/*
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Covered By Your Grace', cursive;
+*/
