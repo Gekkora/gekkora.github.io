@@ -5,22 +5,18 @@ body {
 }
 body {
     background-color: #dad5e2;
-    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Comfortaa', cursive
 }
 
 nav >p ,a{ 
     font-family: 'Cabin Sketch', cursive;
 }
-.ghost {
-    width: 100%;
-}
-
 
 .hero {
-    background-image: url(../img/wom.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/bg_hero-01.jpg);
+    background-position: center;
     background-size: cover ;
-    color: #240053;
+    color: rgb(17, 0, 255);
     text-shadow: 2px 3px 2px #000000;
     padding: 400px 50px 300px 50px;
 }
@@ -41,7 +37,10 @@ hr{
     border-width: 2px;
     color:#240053;
 }
-
+#Sobremi >h3 {
+    font-family: 'Cabin Sketch', cursive;
+    color: aqua;
+}
 
 .col:hover .overlay {
     opacity: 1;
@@ -74,18 +73,19 @@ hr{
     text-align: center;
   }
 .imgresize {
-    max-width:50%;
-    max-height:50%;
+    max-width: 90px;
+    max-height: 90px;
   } 
 .actn {
     width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bgcol {
     background-color: #240053;
+    height: 300px;
 }
 
 #Trabajos >h5, p{
@@ -95,7 +95,28 @@ hr{
     color: #ffffff;
     font-size: 30px;
 }
-/*
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Covered By Your Grace', cursive;
-*/
+#Trabajos >hr {
+color: #ffffff ;
+margin: 0% 30% 2% 30%;
+font-weight: 700;
+}
+body >h3 {
+    font-weight: 700;
+}
+.footer-icons a i {
+    color: white;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+#inicio {
+    text-align: center;
+    color: blueviolet;
+    
+    }
+}
+
+
