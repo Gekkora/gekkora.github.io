@@ -1,0 +1,49 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1;
+}
+.robmd {
+    font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.dire {
+  display: inline-block;
+}
+
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color: lightgray;
+} 
+.card-body{
+  height:195px;
+  
+}
+
+.card-img-top{
+  height:185px;
+}
+
+p{
+  margin-bottom:0;
+}
+.custom{
+  margin-bottom:33px
+}
+
+.boton{
+  width: 110px;
+}
+.formulario{
+  min-width:315px;
+}
+.laluz {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}

@@ -1,0 +1,20 @@
+.navrosa {
+  background-color: #E83E8C;
+}
+body {
+  color: #000000;
+  font-family:'Open Sans', sans-serif;
+}
+.titulo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.pagos {
+  background-color: #17A2B8;
+  color: #ffffff;
+  padding: 30px
+}
+.card-deck .card {
+  margin-left: 40px;
+  margin-right: 40px;
+}

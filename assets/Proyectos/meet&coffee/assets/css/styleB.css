@@ -1,0 +1,135 @@
+body {
+background: #ffffff;
+} /*color fondo cuerpo*/
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family:'Open Sans', sans-serif;
+} /*alineaciion texto del cuerpo*/
+body * {
+margin: 0;
+border: 0;
+padding: 0;
+}/*resetear TODOS los margenes a cero*/
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+} /*clase cambia color fondo*/
+.oscuro a{
+  color: #ffffff;
+  text-decoration: none;
+} /*cambio color letra con etiqueta a en espacios de clase oscuro*/
+.sweet-brown {
+  text-align: left;
+  background: #A4452C;
+  color: #ffffff;
+  padding: 50px;
+}/*color fondo seccion speaker y especificaciones letra*/
+.hero-section {
+  text-align: right;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 2px 3px 2px #707070;
+  padding: 100px 50px 250px 50px;
+} /*imagen de fondo encabezado y sombra ubicacion de texto superpuesto*/
+section, footer {
+margin-top: 75px;
+} /*margen superior*/
+footer {
+padding: 50px;
+}/*espacio interior de pie de pagina*/
+.centrado{
+  width: 75%
+} /*tamaño del 75% correspondiente al contenedor y margenes updown=0 leftrigh=auto*/
+.charla-speaker, .charla-texto ,.evento {
+  display: inline-block;
+} /*ocupar espacio en linea y no hacia abajo, además espacio justo y no de punta a punta*/
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+  text-align: left;
+  margin: 20px;
+} /*propiedades imagen foto speaker*/
+.charla-texto {
+  width: 50%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal;
+} /*propiedades del texto seccion speaker*/
+.evento {
+  width: 30%;
+} /*tamaño contenedor de clase evento */
+.evento img{
+  width: 75%;
+} /*porcentaje tamaño imagen en clase evento*/
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}/*tipografia de googlefonts peso 800 corresponde a extrabold,
+tamaño de fuente y margen inferior escalables*/
+h2 {
+  font-weight: 700;
+  font-size: 2em;
+}/*tipografia de googlefonts peso 700 corresponde a bold
+tamaño de fuente escalable*/
+h3 {
+  font-size: 1em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.subtitulo, h4, h5{
+  font-weight: 400;
+}/*tipografia de googlefonts peso 400 corresponde a regular*/
+.im {
+  margin-bottom: 20px;
+}
+.im2 {
+  margin-right: 20px;
+}
+.mt {
+  margin-top: 40px;
+}
+.pad {
+  padding: 100px 50px 50px 0px;
+}
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.alef {
+text-align: left;
+}
+
+.txjus {
+  text-align: justify;
+  font-size: x-large;
+}

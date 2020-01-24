@@ -1,0 +1,101 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    border: 0;
+    background-color: #000000;
+
+}
+.ralemd {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+header {
+    background-color:#000000;
+    color: #ffffff;
+    text-align: center;
+    height: 50px;
+}
+footer {
+    background-color: #1e1a13;
+    height: 70px;
+    text-align: center;
+    color: #ffffff;
+}
+.pad {
+    padding: 25px 0px;
+} /*footer*/
+.ghost {
+    width: 100%;
+} /*imagen portada*/
+
+  .mtb {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+ .desc-section {
+    background-color: #000000;
+ }
+
+.container{
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    color: #ffffff;
+}
+  .left{
+      margin: 70px 20px 70px 120px;
+      float: left;
+      text-align:left;
+      width: 45%;
+      height: 300px;
+      
+  }
+  .right{
+        margin-top :50px;
+        margin-bottom: 50px;
+        margin-left:55%;
+      
+  }
+  p{
+      font-size: 16px;
+  }
+.icons-section {
+	background-color: #1E1A13;
+}
+  .bgicon {
+	text-align: center;
+    padding: 40px;
+    color: #ffffff;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 40px;
+	margin-bottom: 1em;
+}
+
+.inb-icono {
+	display: inline-block;
+	width: 30%;
+}
+
+.inb-icono p {
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.galeria-txt {
+	text-align: center;
+	padding: 75px 0;
+}
+
+.imag {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.imag img {
+    width: 90%;
+}

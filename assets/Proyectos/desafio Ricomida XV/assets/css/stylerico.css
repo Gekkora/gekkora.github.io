@@ -1,0 +1,65 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.lobytxt {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 200%;
+}
+.bgnavfoot {
+    background-color: #373A3C;
+}
+.newsletter {
+    background-color: #DC3545;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color:#373A3C;
+}
+.inb {
+    display: inline-block;
+}
+.marg {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.imgsize {
+    max-width: 100%;
+    height: auto;
+}
+ol>li {
+    background-color: #373A3C;
+  
+}
+
+.bdown {
+    bottom: -4rem;
+}
+
+ul >li {
+    list-style: none;
+}
+li >hr {
+    margin-right: 390px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .cmed {
+    text-align: center;
+    }
+}

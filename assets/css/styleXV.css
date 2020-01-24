@@ -4,27 +4,97 @@ body {
     margin: 0;
 }
 body {
-    background-color: #dfe5ee;
+    background-color: #dad5e2;
+    font-family: 'Covered By Your Grace', cursive;
 }
+
 nav >p ,a{ 
     font-family: 'Cabin Sketch', cursive;
 }
 .ghost {
     width: 100%;
-    height: 450px;
 }
+
+
 .hero {
-    text-align: center;
-    background-image: url(../img/mientras.png);
+    background-image: url(../img/wom.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    color: #dfe5ee;
-    text-shadow: 2px 3px 2px #dfe5ee;
-    padding: 100px 50px 250px 50px;
+    background-size: cover ;
+    color: #240053;
+    text-shadow: 2px 3px 2px #000000;
+    padding: 400px 50px 300px 50px;
+}
+header >h1 {
+    float: left;
+}
+.namex {
     font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color:#240053;
 }
 
 
+.col:hover .overlay {
+    opacity: 1;
+}
+.overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #240053;
+}
+.image:hover{
+    opacity:0.5;
+}
+
+.text {
+    color:#ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.imgresize {
+    max-width:50%;
+    max-height:50%;
+  } 
+.actn {
+    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bgcol {
+    background-color: #240053;
+}
+
+#Trabajos >h5, p{
+    color: #240053;
+}
+#Trabajos >h3 {
+    color: #ffffff;
+    font-size: 30px;
+}
 /*
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Covered By Your Grace', cursive;
