@@ -3,31 +3,36 @@ body {
     border: 0;
     margin: 0;
 }
+
 body {
     background-color: #dad5e2;
     font-family: 'Comfortaa', cursive
 }
 
-nav >p ,a{ 
+nav>p,
+a {
     font-family: 'Cabin Sketch', cursive;
 }
 
 .hero {
     background-image: url(../img/bg_hero-01.jpg);
     background-position: center;
-    background-size: cover ;
+    background-size: cover;
     color: rgb(17, 0, 255);
     text-shadow: 2px 3px 2px #000000;
     padding: 400px 50px 300px 50px;
 }
-header >h1 {
+
+header>h1 {
     float: left;
 }
+
 .namex {
     font-family: 'Cabin Sketch', cursive;
     font-size: 50px;
 }
-hr{
+
+hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -35,9 +40,10 @@ hr{
     margin-right: auto;
     border-style: inset;
     border-width: 2px;
-    color:#240053;
+    color: #240053;
 }
-#Sobremi >h3 {
+
+#Sobremi>h3 {
     font-family: 'Cabin Sketch', cursive;
     color: aqua;
 }
@@ -45,24 +51,26 @@ hr{
 .col:hover .overlay {
     opacity: 1;
 }
+
 .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #240053;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #240053;
 }
-.image:hover{
-    opacity:0.5;
+
+.image:hover {
+    opacity: 0.5;
 }
 
 .text {
-    color:#ffffff;
+    color: #ffffff;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -71,11 +79,13 @@ hr{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
+
 .imgresize {
     max-width: 90px;
     max-height: 90px;
-  } 
+}
+
 .actn {
     width: 50%;
     display: block;
@@ -88,21 +98,26 @@ hr{
     height: 300px;
 }
 
-#Trabajos >h5, p{
+#Trabajos>h5,
+p {
     color: #240053;
 }
-#Trabajos >h3 {
+
+#Trabajos>h3 {
     color: #ffffff;
     font-size: 30px;
 }
-#Trabajos >hr {
-color: #ffffff ;
-margin: 0% 30% 2% 30%;
-font-weight: 700;
-}
-body >h3 {
+
+#Trabajos>hr {
+    color: #ffffff;
+    margin: 0% 30% 2% 30%;
     font-weight: 700;
 }
+
+body>h3 {
+    font-weight: 700;
+}
+
 .footer-icons a i {
     color: white;
 }
@@ -112,11 +127,9 @@ body >h3 {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-#inicio {
-    text-align: center;
-    color: blueviolet;
-    
+    #inicio {
+        text-align: center;
+        color: blueviolet;
+
     }
 }
-
-
